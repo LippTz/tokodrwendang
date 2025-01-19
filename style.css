@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(255, 93, 120);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: rgb(199, 199, 199);
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+header h1 {
+    color: white;
+}
+
+header h1 span {
+    color: rgb(255, 93, 120);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0px 8px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+nav li a:hover {
+    border-bottom: 2px solid black;
+}
+
+main h3 {
+    color: white;
+    margin: 20px 5px;
+}
+
+.product {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-item {
+    background-color: white;
+    width: 150px;
+    height: 200px;
+    padding: 5px;
+    margin: 5px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10%;
+}
+
+.product-item:hover {
+    background-color: rgba(199, 199, 199, 0.562);
+    border: 2px solid rgb(199, 199, 199);
+    transition: all .3s ease-in-out;
+}
+
+.product-item img {
+    max-width: 95%;
+    border-radius: 10%;
+}
+
+.product-item button {
+    background-color: transparent;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 10px;
+    padding: 2px 0px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.product-item button:hover {
+    background-color: white;
+}
+
+footer {
+    background-color: rgb(199, 199, 199);
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
